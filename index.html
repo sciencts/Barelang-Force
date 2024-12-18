@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/custom/images/shortcut.png">
+    <title>Barelang Force - Barelang Flying Object Research Center</title>
+    
+    <!-- /import css -->
+    <!-- animate.css-->  
+    <link href="assets/vendor/animate.css-master/animate.min.css" rel="stylesheet">
+    <!-- Load Screen -->
+    <link href="assets/vendor/loadscreen/css/spinkit.css" rel="stylesheet">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- Font Awesome 5 -->
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- Fables Icons -->
+    <link href="assets/custom/css/fables-icons.css" rel="stylesheet"> 
+    <!-- Bootstrap CSS --> 
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap-4-navbar.css" rel="stylesheet">
+    <!-- portfolio filter gallery -->
+    <link href="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css" rel="stylesheet">
+    <!-- FANCY BOX -->
+    <link href="assets/vendor/fancybox-master/jquery.fancybox.min.css" rel="stylesheet"> 
+    <!-- RANGE SLIDER -->
+    <link href="assets/vendor/range-slider/range-slider.css" rel="stylesheet">
+    <!-- OWL CAROUSEL  --> 
+    <link href="assets/vendor/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/owlcarousel/owl.theme.default.min.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS FILE -->
+    <link href="assets/custom/css/custom.css" rel="stylesheet">
+    <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
+    <link href="assets/custom/css/custom-responsive.css" rel="stylesheet">
+    
+</head>
+
+
+<body>
+<!-- Search Section -->
+<div class="search-section">
+    <a class="close-search" href="#"></a>
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <form method="post" action="#" class="w-50">
+            <div class="row">
+                <div class="col-10">
+                    <input type="search" value="" class="form-control palce bg-transparent border-0 search-input" placeholder="Search Here ..." /> 
+                </div>
+                <div class="col-2 mt-3">
+                    <button type="submit" class="btn bg-transparent text-white"> <i class="fas fa-search"></i> </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Loading Screen -->
+<div id="ju-loading-screen">
+    <div class="sk-double-bounce">
+        <div class="sk-child sk-double-bounce1"></div>
+        <div class="sk-child sk-double-bounce2"></div>
+    </div>
+</div>
+
+<!-- Navigation Menu -->
+<div class="fables-transparent py-3 py-lg-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 pr-md-0">                       
+                <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
+                    <a class="navbar-brand fables-logo-brand pl-0" href="index.html">
+                        <img src="assets/custom/gambar/skyforce.png" alt="Fables Template" class="fables-logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fables-iconmenu-icon text-white font-16"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="fablesNavDropdown"> 
+                        <ul class="navbar-nav ml-auto fables-nav">   
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Profile
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="sub-nav2">
+                                    <li><a class="dropdown-item" href="404.html">About us</a></li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Division</a>
+                                        <ul class="dropdown-menu">  
+                                            <li><a class="dropdown-item" href="comming-soon.html">Electrical</a></li>
+                                            <li><a class="dropdown-item" href="comming-soon.html">Mechanical</a></li>
+                                            <li><a class="dropdown-item" href="comming-soon.html">Programmer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Subteam</a>
+                                        <ul class="dropdown-menu">  
+                                            <li><a class="dropdown-item" href="comming-soon.html">Technology Development</a></li>
+                                            <li><a class="dropdown-item" href="404.html">Racing Plane</a></li>
+                                            <li><a class="dropdown-item" href="404.html">Vertikal Take-Off Landing</a></li>
+                                            <li><a class="dropdown-item" href="404.html">Fixed Wing</a></li>
+                                            <li><a class="dropdown-item" href="404.html">Long Endurence Low Altitude</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comming-soon.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comming-soon.html">Contact Us</a>
+                            </li> 
+                        </ul> 
+                    </div>
+                </nav>
+            </div>
+            <div class="col-5 col-md-2 pr-md-0 icons-header-mobile">
+                <div class="fables-header-icons pt-lg-4 text-right">
+                    <a href="#" class="open-search fables-third-text-color fables-mega-menu-btn px-4  fables-second-hover-color">
+                        <span class="fables-iconsearch-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header Section -->
+<div class="fables-header fables-after-overlay overlay-lighter index-traingle bg-rules" style="background-image: url(assets/custom/gambar/home.jpeg);">
+    <div class="container">  
+        <div class="row">
+            <div class="col-md-10 col-lg-7 mr-auto index-carousel">
+                <div class="owl-carousel owl-theme default-carousel nav-0 z-index mt-md-4 mt-xl-5 pt-md-4 pt-xl-5 dots-0 pb-md-5">
+                    <div class="pt-0 mt-0 pt-xl-5 mt-xl-5 wow slideInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                        <h1 class="fables-main-text-color font-weight-bold mb-1">BARELANG  
+                            <span class="fables-second-text-color">FORCE</span>
+                        </h1>  
+                        <p class="fables-forth-text-colo mb-3 light-font fables-header-slider-details">
+                            Barelang Flying Object Research Center (BARELANG FORCE) is a flying robot team of Batam State Polytechnic which is engaged in research and development of Unmanned Aerial Vehicles (UAV). 
+                        </p>
+                        <a href="comming-soon.html" class="btn fables-second-border-color fables-second-text-color rounded-0 px-3 px-md-4 py-2 fables-second-hover-background-color">Learn More</a>  
+                    </div> 
+                    <div class="pt-0 mt-0 pt-xl-5 mt-xl-5 wow slideInUp" data-wow-duration="2s" data-wow-delay=".8s">
+                        <h1 class="fables-main-text-color font-weight-bold mb-1">BRAIL 
+                            <span class="fables-second-text-color">(Barelang Robotics and Artificial Intelegence Lab) </span>
+                        </h1>  
+                        <p class="fables-forth-text-colo mb-3 light-font fables-header-slider-details">
+                            BRAIL (Barelang Robotics and Artificial Intelligence Lab) is the parent organization of the robot team from Batam State Polytechnic which has won many achievements in robot competitions.
+                        </p>
+                        <a href="comming-soon.html" class="btn fables-second-border-color fables-second-text-color rounded-0 px-3 px-md-4 py-2 fables-second-hover-background-color">Learn More</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<!-- Division Section -->
+<div class="container">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-widget-container">
+            <h1 class="elementor-heading-title elementor-size-default">OUR DIVISION</h1>
+        </div>
+        <div class="divider-container">
+            <div class="divider"></div>
+        </div>
+        <div class="row justify-content-center my-3 my-md-5 overflow-hidden">
+            <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay=".4s" data-wow-duration="1.5s">
+                <div class="division-box">
+                    <a href="coming-soon.html">
+                        <img style="display: block; margin: 0 auto;" width="210" height="210" src="assets/custom/gambar/electric.png" class="attachment-large size-large wp-image-1524" alt="" loading="lazy" sizes="(max-width: 210px) 100vw, 210px">
+                    </a>
+                    <h2 class="fables-main-text-color-1 text-center font-18 my-2">ELECTRICAL</h2>
+                    <p class="fables-forth-text-color font-15">
+                        The electrical division designs and assembles electrical circuits, regulates power distribution, and ensures that the electrical system runs safely and efficiently.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay=".8s" data-wow-duration="1.5s">
+                <div class="division-box">
+                    <a href="comming-soon.html">
+                        <img style="display: block; margin: 0 auto;" width="210" height="210" src="assets/custom/gambar/mecanic.png" class="attachment-large size-large wp-image-1524" alt="" loading="lazy" sizes="(max-width: 210px) 100vw, 210px">
+                    </a>
+                    <h2 class="fables-main-text-color-1 text-center font-18 my-2">MECHANICAL</h2>
+                    <p class="fables-forth-text-color font-15">
+                        The Mechanical Division is responsible for designing and assembling physical components, as well as ensuring that machines and mechanical structures function properly to support the overall system.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay="1.2s" data-wow-duration="1.5s">
+                <div class="division-box">
+                    <a href="comming-soon.html">
+                        <img style="display: block; margin: 0 auto;" width="210" height="210" src="assets/custom/gambar/Program.png" class="attachment-large size-large wp-image-1524" alt="" loading="lazy" sizes="(max-width: 210px) 100vw, 210px">
+                    </a>
+                    <h2 class="fables-main-text-color-1 text-center font-18 my-2">PROGRAMMER</h2>
+                    <p class="fables-forth-text-color font-15">
+                        The Program division is responsible for developing software that controls system operations and integrating software with hardware.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="fables-choose-background fables-after-overlay py-4 py-md-5 bg-rules overflow-hidden px-3 px-md-0">
+        <div class="container position-relative z-index">
+            <div class="row">
+                <div class="col-12 col-lg-6 p-0 image-container translate-effect-right wow fadeInLeft mb-3 mb-md-0" data-wow-delay="1s" data-wow-duration="1.5s">
+                    <img src="assets/custom/gambar/krti.png" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-lg-6 bg-white px-6 py-3 py-md-5 wow fadeInRight" data-wow-delay="1s" data-wow-duration="1.5s">
+                    <h2 class="font-30 font-weight-bold fables-second-text-color">Kontes Robot Terbang Indonesia (KRTI)</h2>
+                    <p class="fables-main-text-color text-justify font-14 my-3">
+                        KRIT (Indonesian Flying Robot Contest) is a competition in Indonesia organized by the Ministry of Education, Culture, Research, and Technology (Kemendikbudristek). This contest aims to hone students' creativity in designing, making, and controlling flying robots, such as unmanned aircraft (drones). KRTI also functions as a competition event that fosters innovation in the field of aviation technology, while supporting the development of the Indonesian aerospace industry.
+                    </p>
+                    <div id="accordion">
+                        <div class="card border-0 mb-2">
+                            <div class="card-header p-0 border bg-transparent rounded-0" id="headingOne">
+                            <h5 class="mb-0 position-relative">
+                                <span class="fables-second-background-color white-color d-inline-block position-absolute fables-lus-icon pt-2 text-center">
+                                    <i class="fas fa-plus"></i>  
+                                </span>
+                                <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    The aim of the Indonesian Flying Robot Contest (KRTI).
+                                </button>
+                            </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body fables-forth-text-color text-justify font-14 py-1 py-xl-2 pl-6 pr-0">
+                                <h4>The objectives of the Indonesian Flying Robot Contest (KRTI) are as follows:</h4>
+                                <ol>
+                                    <li><strong>Encourage Aviation Technology Innovation:</strong> KRTI aims to stimulate the development of new and efficient aviation technologies.</li>
+                                    <li><strong>Sharpen Students' Technical Skills:</strong> The contest enhances students' skills in areas such as aerodynamics, electronics, and software engineering.</li>
+                                    <li><strong>Promote Research and Development (R&D):</strong> KRTI supports research that contributes to drone technology advancement in Indonesia.</li>
+                                    <li><strong>Increase National Competitiveness in the Global Arena:</strong> The contest helps develop talents that boost Indonesia's global competitiveness in aviation technology.</li>
+                                    <li><strong>Produce Technological Solutions for Various Problems:</strong> Participants are encouraged to create solutions for real-world challenges using drone technology.</li>
+                                    <li><strong>Build Networks and Collaboration:</strong> KRTI fosters collaboration between students, academics, and industry professionals.</li>
+                                </ol>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-2">
+                            <div class="card-header bg-transparent p-0 border rounded-0" id="headingTwo">
+                            <h5 class="mb-0 position-relative">
+                                <span class="fables-second-background-color white-color d-inline-block position-absolute fables-lus-icon pt-2 text-center">
+                                    <i class="fas fa-plus"></i>  
+                                </span>
+                                <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Several categories of races that are usually competed.
+                                </button>
+                            </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body fables-forth-text-color text-justify font-14 py-1 py-xl-2 pl-6 pr-0">
+                                <h4>Categories of Indonesian Flying Robot Contest (KRTI):</h4>
+                                <ol>
+                                    <li><strong>Fixed Wing:</strong> This category involves designing and operating drones with fixed-wing configurations, often used for mapping or reconnaissance missions.</li>
+                                    <li><strong>Racing Plane:</strong> A speed and agility competition where participants race their drones through a predefined track as quickly as possible.</li>
+                                    <li><strong>Technology Development:</strong> Focuses on innovative technological developments in aviation and drone technology, including hardware and software solutions.</li>
+                                    <li><strong>Vertical Take-Off and Landing (VTOL):</strong> Competitors design drones that can take off and land vertically, suitable for missions in difficult terrains.</li>
+                                    <li><strong>Long Endurance Low Altitude:</strong> Drones are designed for long endurance at low altitude, ideal for continuous monitoring or patrol missions.</li>
+                                </ol>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-2">
+                            <div class="card-header p-0 border bg-transparent rounded-0" id="headingThree">
+                            <h5 class="mb-0 position-relative">
+                                <span class="fables-second-background-color white-color d-inline-block position-absolute fables-lus-icon pt-2 text-center">
+                                    <i class="fas fa-plus"></i>  
+                                </span>
+                                <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How long has this contest been going on
+                                </button>
+                            </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body fables-forth-text-color text-justify font-14 py-1 py-xl-2 pl-6 pr-0">
+                                <h4>Overview of Indonesian Flying Robot Contest (KRTI)</h4>
+                                <li>The Indonesian Flying Robot Contest (KRTI) was first held in 2013 by the Ministry of Education, Culture, Research, and Technology (Kemendikbudristek).
+                                Since then, the contest has been held annually, with the aim of promoting technological innovation and improving students' technical skills in the field of flying robots.
+                                If calculated from the beginning of its implementation in 2013 until now, KRTI has been running for 11 years in 2024.</li>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card border-0 mb-2">
+                            <div class="card-header p-0 border bg-transparent rounded-0" id="headingfour">
+                            <h5 class="mb-0 position-relative">
+                                <span class="fables-second-background-color white-color d-inline-block position-absolute fables-lus-icon pt-2 text-center">
+                                    <i class="fas fa-plus"></i>  
+                                </span>
+                                <button class="btn fables-main-text-color bg-transparent font-18 focus-0 d-block position-relative z-index pl-6 pt-2 pb-2 w-100 text-left border-0 text-truncate collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    Where this year's KRTI was held
+                                </button>
+                            </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+                            <div class="card-body fables-forth-text-color text-justify font-14 py-1 py-xl-2 pl-6 pr-0">
+                                <h4>Indonesian Flying Robot Contest (KRTI) 2024</h4>
+                                <li>The Indonesian Flying Robot Contest (KRTI) 2024 will be held at the Vocational Faculty of Yogyakarta State University (UNY) in Gunungkidul.
+                                This event takes place from September 12 to 18, 2024, and is attended by 100 teams from 42 leading universities in Indonesia.
+                                KRTI aims to promote technological innovation and enhance students' technical skills in the field of flying robots and drones.</li>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- Subteam Section -->
+<div class="container">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-widget-container">
+                    <h1 class="elementor-heading-title elementor-size-default">OUR SUBTEAM</h1>		
+                </div>
+                <div class="divider-container">
+                    <div class="divider"></div>
+                </div>
+            <div class="row justify-content-center my-3 my-md-5 overflow-hidden">
+                <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay=".4s" data-wow-duration="1.5s">
+                    <div class="division-box">
+                        <a href="404.html">
+                            <img src="assets/custom/gambar/FW.png" class="attachment-large size-large wp-image-1524" alt="DIVISI KE-1" loading="lazy">
+                        </a>
+                        <h2 class="fables-main-text-color-1 font-18 my-2">Racing Plane</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay=".8s" data-wow-duration="1.5s">
+                    <div class="division-box">
+                        <a href="404.html">
+                            <img src="assets/custom/gambar/RP.png" class="attachment-large size-large wp-image-1524" alt="DIVISI KE-2" loading="lazy">
+                        </a>
+                        <h2 class="fables-main-text-color-1 font-18 my-2">Fixed Wings</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay="1.2s" data-wow-duration="1.5s">
+                    <div class="division-box">
+                        <a href="404.html">
+                            <img src="assets/custom/gambar/Vtol.png" class="attachment-large size-large wp-image-1524" alt="DIVISI KE-3" loading="lazy">
+                        </a>
+                        <h2 class="fables-main-text-color-1 font-18 my-2">Vertikal Take-Off Landing</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay="1.6s" data-wow-duration="1.5s">
+                    <div class="division-box">
+                        <a href="coming-soon.html">
+                            <img src="assets/custom/gambar/TD.png" class="attachment-large size-large wp-image-1524" alt="DIVISI KE-4" loading="lazy">
+                        </a>
+                        <h2 class="fables-main-text-color-1 font-18 my-2">Technology Development</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 text-justify mb-3 mb-lg-0 wow fadeInDown" data-wow-delay="2.0s" data-wow-duration="1.5s">
+                    <div class="division-box">
+                        <a href="404.html">
+                            <img src="assets/custom/gambar/lela.png" class="attachment-large size-large wp-image-1524" alt="DIVISI KE-5" loading="lazy">
+                        </a>
+                        <h2 class="fables-main-text-color-1 font-18 my-2">Long Endurence Low Altitude</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!-- News Section -->
+<div class="container">
+    <div class="row overflow-hidden">
+        <div class="col-12">
+            <h2 class="font-35 font-weight-bold text-center fables-main-text-color my-4 my-lg-5">Latest News</h2>
+        </div>
+        <div class="col-12 col-md-4 mb-4 mb-lg-5 wow bounceInLeft" data-wow-delay=".4s" data-wow-duration="1.5s"> 
+            <div class="image-container1 translate-effect-right">
+                <a href="#"><img src="assets/custom/gambar/krti2023.png" alt="" class="img-responsive uniform-image"></a>  
+            </div>
+            <h2 class="font-18 semi-font mt-3"><a href="#" class="fables-main-text-color fables-second-hover-color">Kontes Robot Terbang Indonesia(KRTI) 2023.</a></h2>
+            <p class="fables-fifth-text-color font-13 my-1">22 September, 2023</p>
+            <p class="fables-forth-text-color font-14">
+                The 2023 Indonesian Flying Robot Contest (KRTI) will be held in two stages, namely the regional selection which will take place online from April 18 to May 31, followed by the national final which will be held offline at the Astra Ksetra Air Base, Tulang Bawang, Lampung, from September 22 to 27.
+            </p>
+            <a href="#" class="btn fables-main-text-color fables-second-hover-color p-0 underline mt-2">Read More</a> 
+        </div>
+        <div class="col-12 col-md-4 mb-4 mb-lg-5 wow bounceInLeft" data-wow-delay=".8s" data-wow-duration="1.5s">  
+            <div class="image-container1 translate-effect-right">
+                <a href="#"><img src="assets/custom/gambar/krti2024.png" alt="" class="img-responsive uniform-image"></a>  
+            </div>  
+            <h2 class="font-18 semi-font mt-3"><a href="#" class="fables-main-text-color fables-second-hover-color">Kontes Robot Terbang Indonesia(KRTI) 2023</a></h2>
+            <p class="fables-fifth-text-color font-13 my-1">12 September, 2023</p>
+            <p class="fables-forth-text-color font-14">
+                The 2024 Indonesian Flying Robot Contest (KRTI) will be held from 12 to 19 September 2024, at Gading Airfield, Yogyakarta. Prior to this final stage, regional selection will be conducted online from 15 May to 21 July 2024. This activity will be attended by participants from various universities in Indonesia who will compete in various categories covering innovations in drone technology and autonomous flight systems.
+            </p>
+            <a href="#" class ="btn fables-main-text-color fables-second-hover-color p-0 underline mt-2">Read More</a> 
+        </div>
+        <div class="col-12 col-md-4 mb-4 mb-lg-5 wow bounceInLeft" data-wow-delay="1.2s" data-wow-duration="1.5s"> 
+            <div class="image-container1 translate-effect-right">
+                <a href="#"><img src="assets/custom/gambar/krti_team.jpeg" alt="" class="img-responsive uniform-image"></a>  
+            </div>
+            <h2 class="font-18 semi-font mt-3"><a href="#" class="fables-main-text-color fables-second-hover-color">Team Kontes Robot Terbang Indonesia(KRTI) Polibatam 2024.</a></h2>
+            <p class="fables-fifth-text-color font-13 my-1">21 Juli, 2024</p> 
+            <p class="fables-forth-text-color font-14">
+                The Barelang Force Team, Technology Development Division of the Batam State Polytechnic, advanced to the next stage in the 2024 Indonesian Flying Robot Contest (KRTI) which was held in Gunung Kidul, Yogyakarta.
+            </p>
+            <a href="#" class="btn fables-main-text-color fables-second-hover-color p-0 underline mt-2">Read More</a> 
+        </div>
+    </div>
+</div>
+
+<!-- Quotes Section -->
+<div class="fables-testimonial fables-after-overlay py-4 py-lg-5 bg-rules">
+    <div class="container">
+        <h2 class="position-relative z-index white-color font-35 font-weight-bold text-center mb-4">Quotes</h2> 
+        <div class="owl-carousel owl-theme" id="fables-testimonial-carousel">
+            <div class="row text-center fables-testimonial-carousel-item rounded py-4"> 
+                <div class="col-12 col-md-3">
+                    <img src="assets/custom/gambar/Dai.jpg" alt="Fables Template" class="fables-testimonial-carousel-img">  
+                    <h3 class="font-14 semi-font text-white">Daipansyah</h3>
+                    <h3 class="font-14 font-italic text-white mt-2">Electrical Engineering</h3>
+                </div>
+                <div class="col-12 col-md-9 p-0 p-md-2">
+                        <div class="fables-testimonial-detail font-15 font-italic text-white p-4 position-relative"> 
+                            The sky is not the limit; it's the beginning of your imagination.
+                        </div>
+                </div>
+            </div>
+            <div class="row text-center fables-testimonial-carousel-item rounded py-4"> 
+                <div class="col-12 col-md-3">
+                    <img src="assets/custom/gambar/alfian.jpg" alt="Fables Template" class="fables-testimonial-carousel-img">  
+                    <h3 class="font-14 semi-font text-white">Alfian</h3>
+                    <h3 class="font-14 font-italic text-white mt-2">Mechanical Engineering</h3>
+                </div>
+                <div class="col-12 col-md-9 p-0 p-md-2">
+                        <div class="fables-testimonial-detail font-15 font-italic text-white p-4 position-relative"> 
+                            Drones are not just machines; they are a bridge to the future of technology, creativity, and innovation.
+                        </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container"> 
+        <h2 class="font-35 font-weight-bold text-center fables-main-text-color my-3 my-lg-5">Team</h2>          
+        <div class="row overflow-hidden">
+            <div class="col-6 col-md-3 mb-4 wow bounceInDown" data-wow-delay=".4s" data-wow-duration="1.5s">
+                <div class="card fables-team-block fables-second-hover-text-color fables-team-border fables-second-border-color">
+                <div class="image-container3 shine-effect">
+                    <a href="#"><img class="w-100" src="assets/custom/gambar/ezha.jpeg" alt="Card image cap"></a> 
+                </div>
+                <div class="card-body">
+                    <h5><a href="#" class="font-20 semi-font fables-forth-text-color fables-second-hover-color team-name">Ezha Tri Saputra</a></h5>
+                    <p class="font-13 fables-forth-text-color my-1">Programmer</p> 
+                    <ul class="nav fables-team-social-links"> 
+                        <li><a href="#" target="_blank"><span class="fables-icongoogle-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconwhatapp-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>   
+                        <li><a href="#" target="_blank"><span class="fables-icontwitter-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconinstagram-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li> 
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 wow bounceInDown" data-wow-delay=".8s" data-wow-duration="1.5s">
+                <div class="card fables-team-block fables-second-hover-text-color fables-team-border fables-second-border-color">
+                <div class="image-container2 shine-effect">
+                    <a href="#"><img class="w-100" src="assets/custom/gambar/Dai.jpg" alt="Card image cap"></a>
+                </div>
+                <div class="card-body">
+                    <h5><a href="#" class="font-20 semi-font fables-forth-text-color fables-second-hover-color team-name">Daipansyah Arya S</a></h5>
+                    <p class="font-13 fables-forth-text-color my-1">Programmer</p> 
+                    <ul class="nav fables-team-social-links"> 
+                        <li><a href="#" target="_blank"><span class="fables-icongoogle-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconwhatapp-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>   
+                        <li><a href="#" target="_blank"><span class="fables-icontwitter-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconinstagram-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li> 
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 wow bounceInDown" data-wow-delay="1.2s" data-wow-duration="1.5s">
+                <div class="card fables-team-block fables-second-hover-text-color fables-team-border fables-second-border-color">
+                <div class="image-container3 shine-effect">
+                    <a href="#"><img class="w-100" src="assets/custom/gambar/Arya.jpeg" alt="Card image cap"></a>
+                </div>
+                <div class="card-body">
+                    <h5><a href="#" class="font-20 semi-font fables-forth-text-color fables-second-hover-color team-name">Arya Wardana</a></h5>
+                    <p class="font-13 fables-forth-text-color my-1">Mechanical</p> 
+                    <ul class="nav fables-team-social-links"> 
+                        <li><a href="#" target="_blank"><span class="fables-icongoogle-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconwhatapp-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>   
+                        <li><a href="#" target="_blank"><span class="fables-icontwitter-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconinstagram-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li> 
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4 wow bounceInDown" data-wow-delay="1.6s" data-wow-duration="1.5s">
+                <div class="card fables-team-block fables-second-hover-text-color fables-team-border fables-second-border-color">
+                <div class="image-container2 shine-effect">
+                    <a href="#"><img class="w-100" src="assets/custom/gambar/alfian.jpg" alt="Card image cap"></a>
+                </div>
+                <div class="card-body">
+                    <h5><a href="#" class="font-20 semi-font fables-forth-text-color fables-second-hover-color team-name">Alfian Sulfiza</a></h5>
+                    <p class="font-13 fables-forth-text-color my-1">Mechanical</p> 
+                    <ul class="nav fables-team-social-links"> 
+                        <li><a href="#" target="_blank"><span class="fables-icongoogle-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconwhatapp-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>   
+                        <li><a href="#" target="_blank"><span class="fables-icontwitter-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="fables-iconinstagram-icon fables-forth-text-color fables-fifth-border-color fables-team-social-icon"></span></a></li> 
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>  
+        <div class="row my-3 my-lg-5">
+            
+        <div class="owl-carousel owl-theme px-6 my-0" id="fables-partner-carousel">
+                <div> 
+                    <img src="assets/custom/gambar/brail.jpeg" alt="Fables Template" class="fables-partner-carousel-img1">  
+                </div>
+                <div> 
+                    <img src="assets/custom/gambar/polibatam.jpeg" alt="Fables Template" class="fables-partner-carousel-img1">  
+                </div>
+            </div>
+        </div>   
+</div> 
+        
+    
+<!-- /End page content -->
+    
+<!-- Start Footer 2 Background Image  -->
+<div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mb-5 text-center">
+                <h2 class="font-30 semi-font mb-5">Contact</h2>
+                <form class="form-inline position-relative"> 
+                <div class="form-group fables-subscribe-formgroup"> 
+                    <input type="email" class="form-control fables-subscribe-input fables-btn-rouned" placeholder="Your Email">
+                </div>
+                <button type="submit" class="btn fables-second-background-color fables-btn-rouned fables-subscribe-btn">Subscribe</button>
+                </form>
+                
+            </div>
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13"><img src="assets/custom/gambar/skyforce.png" alt="fables template"></a>
+                <p class="font-15 fables-third-text-color">
+                    Barelang Flying Object Research Center (Barelang FORCE) is a flying robot team of Batam State Polytechnic which is engaged in research and development of Unmanned Aerial Vehicles (UAV).
+                </p> 
+                
+            </div>
+            
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contact us</h2>
+            <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Address Information</h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">Jl. Ahmad Yani Batam Kota. Kota Batam. kepulauan Riau. Indonesia</p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Call Now </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">+62 </p>
+                </div>
+                <div class="my-3">
+                    <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Mail </h4>
+                    <p class="font-14 fables-fifth-text-color mt-2 ml-4">admin@gmail.com</p>
+                </div>
+            </div>
+            
+        </div> 
+        
+        </div>
+</div>
+<div class="copyright fables-main-background-color mt-0 border-0 white-color">
+        <ul class="nav fables-footer-social-links just-center fables-light-footer-links">
+            <li><a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p class="mb-0">Copyright All rights reserved.</p> 
+
+</div>
+    
+<!-- /End Footer 2 Background Image -->
+
+
+
+<!-- /import javascript -->
+<script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
+<script src="assets/vendor/jquery-circle-progress/circle-progress.min.js"></script>
+<script src="assets/vendor/popper/popper.min.js"></script>
+<script src="assets/vendor/jQuery.countdown-master/jquery.countdown.min.js"></script>
+<script src="assets/vendor/timeline/jquery.timelify.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap-4-navbar.js"></script>
+<script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
+<script src="assets/vendor/owlcarousel/owl.carousel.min.js"></script> 
+<script src="assets/custom/js/jquery-data-to.js"></script>   
+<script src="assets/vendor/jquery-circle-progress/circle.js"></script>
+<script src="assets/vendor/portfolio-filter-gallery/jquery.isotope.min.js"></script>
+<script src="assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.js"></script>
+<script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
+<script src="assets/custom/js/custom.js"></script>
+
+</body>
+</html>
